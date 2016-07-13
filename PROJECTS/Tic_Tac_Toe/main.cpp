@@ -23,9 +23,10 @@ int main(int argc, char** argv) {
 	//Start with a Tic-Tac-Toe menu welcome option screen
         //Please enter player 1 name; please enter player 2 name
 	//Enter game
+        //Players choose if they want to be X or O
 	//Game Starts and Displays Board
-	//Menu Choice
 
+        //Menu Variables
 	int choice;
 
 	//Board Variables
@@ -38,12 +39,6 @@ int main(int argc, char** argv) {
 	char square7('7');
 	char square8('8');
 	char square9('9');
-
-	//Player Variable
-	int PlayerTurn(1);
-
-	//Whether the game is over or not in the while loop
-	bool GameOverDecider(true);
 
 	//Main Menu
 
